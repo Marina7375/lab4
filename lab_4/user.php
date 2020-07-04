@@ -17,7 +17,7 @@ include './session.php';
 
 if(empty($_SESSION['login']))
   {//echo "Данные введены не верно!";
-header("Location: ../index.php");    
+header("Location: ./index.php");    
 
 }
 elseif(empty($_SESSION['lang'])){
